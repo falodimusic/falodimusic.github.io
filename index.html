@@ -69,5 +69,26 @@
     </div>
 
 </body>
+    <!-- Añade esto dentro del <body> -->
+<img src="tu-foto.jpg" alt="Mi Foto" class="foto-animada">
+
+<style>
+    .foto-animada {
+        width: 200px; /* Ajusta el tamaño */
+        border-radius: 15px;
+        margin-top: 20px;
+        box-shadow: 0 10px 30px rgba(243, 156, 18, 0.3);
+        
+        /* Definimos la animación */
+        animation: levitacion 3s ease-in-out infinite;
+    }
+
+    @keyframes levitacion {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); } /* Sube 20 píxeles */
+        100% { transform: translateY(0px); }
+    }
+</style>
+
 </html>
 
