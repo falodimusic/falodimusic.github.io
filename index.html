@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FALODI | Official</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #0a0a0a; /* Negro profundo */
+            color: white;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
 
+        .container {
+            text-align: center;
+        }
+
+        /* Animación suave para el logo */
+        .logo-placeholder {
+            max-width: 300px;
+            margin-bottom: 20px;
+            animation: breathe 4s infinite ease-in-out;
+        }
+
+        @keyframes breathe {
+            0%, 100% { transform: scale(1); filter: drop-shadow(0 0 5px rgba(255, 42, 0, 0.2)); }
+            50% { transform: scale(1.05); filter: drop-shadow(0 0 20px rgba(255, 42, 0, 0.6)); }
+        }
+
+        h1 {
+            letter-spacing: 8px;
+            font-size: 1.5rem;
+            color: #ff2a00; /* Tu rojo */
+            text-transform: uppercase;
+        }
+
+        p {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #ff2a00;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-placeholder">
+            <h2 style="font-size: 3rem; margin: 0;">FALODI</h2>
+        </div>
+
+        <h1>Próximamente</h1>
+        <p>De los 4 años al piano, ahora creando el futuro.</p>
+
+        <div class="social-links">
+            <a href="#">INSTAGRAM</a>
+            <a href="#">SPOTIFY</a>
+            <a href="#">TIKTOK</a>
+        </div>
+    </div>
+
+</body>
+</html>
